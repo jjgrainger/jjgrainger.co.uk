@@ -93,7 +93,7 @@ You can define what columns you want to appear on the admin edit screen with the
 
 ```php?start_inline=true
 $books->columns(array(
-    'cb' => '<input type="checkbox" />',
+    'cb' => '<input type="checkbox"></input>',
     'title' => __('Title'),
     'genres' => __('Genres'),
     'price' => __('Price'),

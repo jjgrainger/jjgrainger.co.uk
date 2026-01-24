@@ -1,12 +1,13 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
-        {%- include head.html -%}
+        {% include head.html %}
     </head>
+    <body>
         <header class="header container">
             <a href="{{ site.baseurl }}/" title="Back to Homepage" class="site-title">{{ site.name }}</a>
 
-            <nav class="nav menu-header">
+            <nav class="nav menu-header" aria-label="Primary navigation">
                 <a href="{{ site.baseurl }}/about/">About</a>
                 <a href="{{ site.baseurl }}/projects/">Projects</a>
                 <a href="http://www.github.com/jjgrainger" target="_blank">GitHub</a>
@@ -19,10 +20,10 @@
         </main>
 
         <footer class="container">
-            <ul class="nav social">
-                <li><a href="http://www.github.com/jjgrainger/" target="_blank" ><span class="fab fa-github"></span></a></li>
-                <li><a href="{{ site.baseurl }}/atom.xml" target="_blank" ><span class="fas fa-rss"></span></a></li>
-            </ul>
+            <nav class="nav social" aria-label="Footer social links">
+                <a href="http://www.github.com/jjgrainger/" target="_blank" >GitHub</a>
+                <a href="{{ site.baseurl }}/atom.xml" target="_blank" >RSS</a>
+            </nav>
         </footer>
     </body>
 </html>
