@@ -1,19 +1,19 @@
 .header {
     padding: 3rem 0;
-    font-size: .875em;
-    color: #aaa;
+    color: var(--color-grey);
 }
 
 .header a {
-    color: #aaa;
+    font-weight: 500;
+    color: var(--color-grey);
 
     &:hover {
-        color: #333;
+        color: var(--color-primary);
     }
 }
 
 .site-description {
-    color: #aaa;
+    color: var(--color-grey);
 }
 
 .menu-header {
