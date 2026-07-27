@@ -3,7 +3,7 @@ name: "jjgrainger"
 description: "Web Developer, Falmouth, Cornwall, UK"
 baseurl: ""
 url: "http://jjgrainger.co.uk"
-permalink: /:year/:month/:day/:title/
+permalink: /posts/:title/
 
 # build configuration
 sass:
