@@ -5,12 +5,28 @@ description: Web Developer, Falmouth, Cornwall, UK
 ---
 
 <section class="section section-home">
+    <h1>Hi, I'm Joe</h1>
+    <p>I'm a web developer based in the UK. I <a href="/projects/">make</a> things and occassionaly <a href="/posts">share</a> what I'm learning along the way.</p>
+
+    <p>This is my own personal corner of the web. A place for notes, projects, ideas and expirements.</p>
+
+    <h2>Recent Posts</h2>
     <ul class="post-list">
-        {%- for post in site.posts %}
+        {%- for post in site.posts limit: 5 %}
         <li>
             <span class="archive-date post-date">{{ post.date | date_to_long_string }}</span>
             <a href="{{ post.url }}" class="post-title">{{ post.title }}</a>
         </li>
         {%- endfor %}
+    </ul>
+    <p><a href="/posts">All posts &rarr;</a></p>
+
+    <h2>A little bit more</h2>
+    <ul style="padding-left: 0;">
+        <li style="list-style-type: none;"><a href="/about">About</a> - More about me.</li>
+        <li style="list-style-type: none;"><a href="/Projects">Projects</a> - Some of the things I've made.</li>
+        <li style="list-style-type: none;"><a href="/colophon">Colophon</a> - More about the site.</li>
+        <li style="list-style-type: none;"><a href="/follow">Follow</a> - Other places you can find me.</li>
+        <li style="list-style-type: none;"><a href="/explore">Explore</a> - A single list of all the pages on this site.</li>
     </ul>
 </section>
