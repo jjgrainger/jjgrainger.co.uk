@@ -1,15 +1,15 @@
 ---
-layout: about
+layout: page
 title: About
-description: My name is Joe Grainger.
+description: More about the author of this site.
 ---
 
-I'm a web developer living in Falmouth, Cornwall, United Kingdom.
+My name is Joe and I can solve a Rubik's Cube in under a minute.
 
-Currently working as a Web Engineer at [10up](https://10up.com).
+I'm also a web developer based in the UK. I predominantly work with PHP and WordPress but will often find myself tinkering with other languages, tools and frameworks.
 
-I [build](/projects/) things with code, I [write](http://jjgrainger.co.uk) stuff about code and I [tweet](http://www.twitter.com/jjgrainger) tweets about code too.
+Oh, and once lived on a boat that didn't float.
 
-You can find me on <a rel="me" href="https://mastodon.social/@jjgrainger">Mastodon</a> and [Github](http://www.github.com/jjgrainger/).
+If you'd like to know more, I would suggest reading some of my [blog posts](/posts) or checking out [things I've made](/projects).
 
-Subscribe to this [RSS Feed](/atom.xml) for notifications on new posts.
+You can also [find me elsewhere](/follow) on the web.
